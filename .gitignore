@@ -1,0 +1,56 @@
+# 🐍 Python 캐시 및 빌드 파일 무시
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.log
+
+# 🧪 가상환경 디렉토리 무시 (폴더명에 관계없이 넓게 대응)
+.env/
+.venv/
+env/
+ENV/
+
+# 📒 Jupyter Notebook 체크포인트 무시
+.ipynb_checkpoints/
+
+# 🛠️ VSCode 개인 설정 무시
+.vscode/
+
+# 📝 Notion / Markdown 정리 관련 캐시 무시
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.swp
+
+# 🧠 머신러닝 / 모델 출력 무시 (AI 프로젝트 대응)
+outputs/
+*.h5
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pkl
+*.npy
+*.npz
+
+# 🔊 오디오 / 음성 데이터 무시 (필요시 주석 해제)
+*.wav
+*.mp3
+*.flac
+
+# 🖼️ 이미지 파일 무시 (필요시 주석 해제)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# 🌐 HTML / CSS 빌드 폴더 무시
+dist/
+build/
+
+# 📦 노션 백업/내보내기 파일 무시
+notion-export/
+notion-dump/
