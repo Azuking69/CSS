@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "postcss styles.css -o dist.css"
+    "build": "set NODE_ENV=production && postcss styles.css -o dist.css"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +11,7 @@
   "description": "",
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "cssnano": "^7.1.0",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^3.3.5"
   }
