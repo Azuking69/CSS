@@ -1,0 +1,31 @@
+body{
+    font-size: 16px;
+    line-height: 1;
+    font-family: "Roboto", "Noto Sans KR", sans-serif;
+    word-break: keep-all;
+}
+
+/* Header */
+header{
+
+}
+header .inner{
+
+}
+header ul.menu{
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid;
+}
+header ul.menu li{
+    border: 4px solid red;
+
+}
+header ul.menu li a{
+    padding: 0 10px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+
+}
