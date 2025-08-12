@@ -3,8 +3,10 @@ body{
     line-height: 1;
     font-family: "Roboto", "Noto Sans KR", sans-serif;
     word-break: keep-all;
+    color:   #1D1D1D;
 }
 a{
+    color: #1D1D1D;
     text-decoration: none;
 }
 
