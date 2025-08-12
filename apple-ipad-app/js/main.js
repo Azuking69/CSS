@@ -4,12 +4,20 @@ const basketEl = basketStarterEl.querySelector('.basket')
 basketStarterEl.addEventListener('click', function(event){
     event.stopPropagation()
     if (basketEl.classList.contains('show')) {
-        basketEl.classList.remove('show')
+        hideBasket()
     } else {
-        basketEl.classList.add('show')
+        showBasket()
     }
 })
 
 window.addEventListener('click', function(){
     basketEl.classList.remove('show')
 })
+
+function showBasket(){
+    basketEl.classList.add('show')
+}
+
+function hideBasket(){
+    basketEl.classList.remove('show')
+}
