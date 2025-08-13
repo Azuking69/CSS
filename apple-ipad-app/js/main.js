@@ -29,11 +29,11 @@ const headerMenuEls = [...headerEl.querySelectorAll('ul.menu > li')]
 const searchWrapEl = headerEl.querySelector('.search-wrap')
 const searchStarterEl = headerEl.querySelector('.search-starter')
 const searchCloserEl = searchWrapEl.querySelector('.search-closer')
-const searchshadowEl = searchWrapEl.querySelector('.shadow')
+const searchShadowEl = searchWrapEl.querySelector('.shadow')
 
 searchStarterEl.addEventListener('click', showSearch)
 searchCloserEl.addEventListener('click', hideSearch)
-searchshadowEl.addEventListener('click', hideSearch)
+searchShadowEl.addEventListener('click', hideSearch)
 
 function showSearch(){
     headerEl.classList.add('searching')
@@ -44,6 +44,7 @@ function showSearch(){
 }
 function hideSearch(){
     headerEl.classList.remove('searching')
+    document.documentElement.classList.remove('fixed')
     headerMenuEls.reverse().forEach(function(el, index){
         el.style.transitionDelay = index * .4 / headerMenuEls.length + 's'
     })
