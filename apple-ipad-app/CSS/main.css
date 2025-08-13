@@ -134,7 +134,9 @@ header .search-wrap{
     top: 0;
     left: 0;
     width: 100%;
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
 }
 header .search{
     max-width: 680px;
@@ -219,5 +221,7 @@ header.searching ul.menu > li{
     opacity: 0;
 }
 header.searching .search-wrap{
-    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: .2s;
 }
