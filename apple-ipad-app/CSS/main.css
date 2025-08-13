@@ -216,6 +216,13 @@ header .search .autocompletes ul li:hover a{
     background-color: #F5F5F5;
     color: #0071E3;
 }
+header .search input,
+header .search .search-icon,
+header .search .autocompletes h3,
+header .search .autocompletes li{
+    transition: .6s;
+    transform: translate(100px, 0);
+}
 header.searching ul.menu > li{
     transform: scale(.7);
     opacity: 0;
