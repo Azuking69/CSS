@@ -38,8 +38,13 @@ searchshadowEl.addEventListener('click', hideSearch)
 function showSearch(){
     headerEl.classList.add('searching')
     document.documentElement.classList.add('fixed')
-    console.log(headerMenuEls)
+    headerMenuEls.reverse().forEach(function(el, index){
+        el.style.transitionDelay = index * .4 / headerMenuEls.length + 's'
+    })
 }
 function hideSearch(){
     headerEl.classList.remove('searching')
+    headerMenuEls.reverse().forEach(function(el, index){
+        el.style.transitionDelay = index * .4 / headerMenuEls.length + 's'
+    })
 }

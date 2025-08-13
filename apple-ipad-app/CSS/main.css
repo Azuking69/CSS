@@ -31,10 +31,10 @@ header ul.menu{
     justify-content: space-between;
     
 }
-header ul.menu li{
+header ul.menu > li{
     display: flex;
     position: relative;
-
+    transition: .4s;
 }
 header ul.menu > li > a{
     padding: 0 10px;
