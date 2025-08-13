@@ -25,7 +25,7 @@ function hideBasket(){
 
 // 검색!
 const headerEl = document.querySelector('header')
-const headerElMenuEls = [...headerEl.querySelectorAll('ul.menu > li')]
+const headerMenuEls = [...headerEl.querySelectorAll('ul.menu > li')]
 const searchWrapEl = headerEl.querySelector('.search-wrap')
 const searchStarterEl = headerEl.querySelector('.search-starter')
 const searchCloserEl = searchWrapEl.querySelector('.search-closer')
