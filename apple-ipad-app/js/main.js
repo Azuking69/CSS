@@ -62,3 +62,4 @@ function hideSearch(){
     searchDelayEls.reverse()
     searchInputEl.value = ''
 }
+
