@@ -299,7 +299,7 @@ nav .menu li:hover a{
 }
 nav .menu li.active a{
     opacity: .5;
-    cursor: sefault;
+    cursor: default;
 }
 nav .menu li.active:hover a{
     color: #1D1D1D;
