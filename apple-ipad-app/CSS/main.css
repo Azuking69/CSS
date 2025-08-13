@@ -232,3 +232,10 @@ header.searching .search-wrap{
     opacity: 1;
     transition-delay: .2s;
 }
+header.searching .search input,
+header.searching .search .search-icon,
+header.searching .search .autocompletes h3,
+header.searching .search .autocompletes li{
+    transition-delay: .2s;
+    transform: translate(0, 0);
+}
