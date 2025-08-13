@@ -37,6 +37,8 @@ searchshadowEl.addEventListener('click', hideSearch)
 
 function showSearch(){
     headerEl.classList.add('searching')
+    document.documentElement.classList.add('fixed')
+    console.log(headerMenuEls)
 }
 function hideSearch(){
     headerEl.classList.remove('searching')

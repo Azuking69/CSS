@@ -215,6 +215,7 @@ header .search .autocompletes ul li:hover a{
     color: #0071E3;
 }
 header.searching ul.menu > li{
+    transform: scale(.7);
     opacity: 0;
 }
 header.searching .search-wrap{
