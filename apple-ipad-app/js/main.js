@@ -60,4 +60,5 @@ function hideSearch(){
         el.style.transitionDelay = index * .4 / searchDelayEls.length + 's'
     })
     searchDelayEls.reverse()
+    searchInputEl.value = ''
 }
