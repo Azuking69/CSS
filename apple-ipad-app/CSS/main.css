@@ -134,10 +134,10 @@ a.link:after{
     margin-bottom: 24px;
 }
 .info .icon{
-    width: 100th;
+    width: 100px;
     height: 100px;
     margin: 0 0 -15px -30px;
-    background-images: url("../images/sprite_apps.png");
+    background-image: url("../images/sprite_apps.png");
 }
 .info p{
     font-size: 21.5px;
@@ -510,14 +510,17 @@ nav .menu li.active:hover a{
     transform: translate(483px, 653px);
 }
 .power .create{
-
+    margin-top: 55px;
 }
 .power .create .figures{
-
+    height: 772px;
 }
 .power .create figure{
-
+    transform: translate(-25px, 50px);
 }
 .power .create figcaption{
-
+    weight: 142px;
+    height: 46px;
+    background-image: url("../images/power_create_caption.png");
+    transform: translate(543px, 908px);
 }
