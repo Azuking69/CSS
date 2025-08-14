@@ -371,6 +371,9 @@ nav .menu li.active:hover a{
     width: 221px;
     height: 91px;
     background-image: url("../images/hero_ipad_text.png");
+    position: absolute;
+    transform: translate(624px, 235px);
+    z-index: 1;
 }
 .hero .figures{
     heighr: 808px;
