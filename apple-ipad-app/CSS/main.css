@@ -138,11 +138,11 @@ a.link:after{
     transform: translate(0, 100px);
     opacity: 0;
 }
-.info .show{
+.info.show{
     transform: translate(0, 0);
     opacity: 1;
 }
-.info .icon{
+.info.icon{
     width: 100px;
     height: 100px;
     margin: 0 0 -15px -30px;
