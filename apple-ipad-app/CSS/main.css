@@ -82,6 +82,22 @@ a.link:after{
     content: " >";
 }
 
+/* Figures */
+.figures{
+    position: relative;
+}
+.figures figure,
+.figures figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.figures figcaption * {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /* Header */
 header{
     background-color: #3A3A3A;
