@@ -66,7 +66,7 @@ function hideSearch(){
 // 요소의 가시성 관할
 const io = new IntersectionObserver(function(entries){
     entries.forEach(function(entry){
-        if(entry.Intersecting){
+        if(!entry.isIntersecting){
             return
         }
         entry.target.classList.add('show')
