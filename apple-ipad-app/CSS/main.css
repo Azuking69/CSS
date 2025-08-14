@@ -372,23 +372,20 @@ nav .menu li.active:hover a{
     height: 91px;
     background-image: url("../images/hero_ipad_text.png");
 }
+.hero .figures{
+    heighr: 808px;
+}
 .hero figure{
-
-}
-.hero figure img{
-
-}
-.hero figure figcaption{
-
+    transform: translate(74px, -64px);
 }
 .hero figure figcaption .caption-camera{
-    
+    transform: translate(43px, 580px);
 }
 .hero figure figcaption .caption-chip{
-    
+    transform: translate(589px, 510px);
 }
 .hero figure figcaption .caption-strage{
-    
+    transform: translate(627px, 631px);
 }
 .hero h2{
     width: 738px;
