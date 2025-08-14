@@ -22,6 +22,14 @@ img{
     -webkit-user-drag: none;
 }
 
+/* Inner */
+.inner{
+    max-width: 980;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
 /* Btn */
 .btn{
     display: flex;
@@ -51,8 +59,6 @@ header{
 }
 header .inner{
     max-width: 1020px;
-    margin: 0 auto;
-    position: relative;
 }
 header ul.menu{
     height: 44px;
@@ -280,7 +286,6 @@ nav{
 nav .inner{
     max-width: 1000px;
     height: 52px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
 }
@@ -312,13 +317,15 @@ nav .menu li.active:hover a{
 
 /* Hero */
 .hero{
-
+    background-color: #f5F5F5;
 }
 .hero .inner{
-
+    padding-bottom: 110px;
 }
 .hero h1{
-
+    width: 221px;
+    height: 91px;
+    background-image: url("../images/hero_ipad_text.png");
 }
 .hero figure{
 
