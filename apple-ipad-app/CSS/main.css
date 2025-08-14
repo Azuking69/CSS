@@ -355,7 +355,10 @@ nav .menu li.active:hover a{
     
 }
 .hero h2{
-
+    width: 738px;
+    height: 145px;
+    margin: 0 auto;
+    background-image: url("../images/hero_headline.png");
 }
 .hero p.pricing{
 
