@@ -142,7 +142,7 @@ a.link:after{
     transform: translate(0, 0);
     opacity: 1;
 }
-.info.icon{
+.info .icon{
     width: 100px;
     height: 100px;
     margin: 0 0 -15px -30px;
@@ -556,6 +556,8 @@ nav .menu li.active:hover a{
 .display{
     margin-top: 450px;
 }
+
+/* Display / Notes */
 .display .notes h1{
     width: 630px;
     height: 370px;
@@ -566,11 +568,28 @@ nav .menu li.active:hover a{
     height: 814px;
     margin-top: 26px;
 }
-.display .nates figcaption{
+.display .notes figcaption{
     width: 145px;
     height: 45px;
     background-image: url("../images/display_notes_caption.png");
     transform: translate(707px, -16px);
+}
+
+/* Display / Shareplay */
+.display .shareplay{
+    margin-top: 55px;
+}
+.display .shareplay .figures{
+    height: 630px;
+}
+.display .shareplay figure{
+    transform: translate(-360px, 0);
+}
+.display .shareplay figcaption{
+    width: 110px;
+    height: 48px;
+    background-image: url("../images/display_shareplay_caption.png");
+    transform: translate(300px, 658px);
 }
 
 @keyframes sprite-icon {
@@ -646,5 +665,3 @@ nav .menu li.active:hover a{
   96.67% { background-position: -400px -900px; }
   98.33% { background-position: -500px -900px; }
 }
-    io.observe(el)
-})
